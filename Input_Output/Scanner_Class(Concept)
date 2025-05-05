@@ -1,1 +1,11 @@
+Scanner Class:
+Before Scanner Class we have "String buffer"
+String Buffer:
+String buffer will accept only strings and later we have to convert into targeted class
+->We can't convert multiple times That's where Scanner class comes in:
+->In scanner class we have multiple pre-defined methods
+->Just creating an object for the scanner class we can use those pre-defined methods.
+->creating objects for scanner class and calling those objects in scanner class.
+->Create a class using class Keyword and name name of the class. the starting letter of the class should be capital(optional)
+->For all the methods the name of thhe method should be small.
 
