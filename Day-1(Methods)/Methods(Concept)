@@ -1,1 +1,20 @@
+Method:Writing a function inside a class is called Method.
 
+Method Statements:
+-declarations
+-defnitions
+-calling
+
+->declaration and definition should be outside the main class
+->calling should be inside main class and main method
+
+->Syntax:
+function-type function-name(parameters){
+          defnitions
+          declarations
+}
+function-name() //function-call
+
+->Function-types:
+Except "Void" we have to return the data , for void we have to print the data.
+->Except "Void" remaining all are Data-Types those are having some default value
