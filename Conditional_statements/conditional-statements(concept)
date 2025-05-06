@@ -1,1 +1,36 @@
+Types:
+i)if
+ii)if-else
+ii)switch case
 
+->conditional statements are used to check the condition and to print the relevent block in constant time 
+
+->if-pseudo code:
+public class Main{
+    public static void main(String[] args){
+        int n = 10;
+        if(n == 10){
+            System.out.println("hi");
+        }
+    }
+}
+
+->if-else Pseudo code:
+public class Main{
+    public static void main(String[] args){
+        int n = 10;
+        if(n == 10){
+            System.out.println("hi");
+        }else{
+            System.out.println("Bye")
+        }
+    }
+}
+
+->switch-case pseudo code:
+public class Main{
+    public static void main(String[] args){
+        int n = 10;
+
+    }
+}
