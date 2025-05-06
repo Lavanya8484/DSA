@@ -4,3 +4,10 @@ Constructor:
 ->whenever we create an object the constructor will be called automatically! there,the object will be created
 ->Constructor having class name and method properties
 
+Static_Block:
+->Static block will be created with just static keyword
+->static methods called automatically no need to call with either objects nor class
+
+Static Method:
+->For Static method no need to call with objects you can directly call with class name and here Static 
+will act as instance or an object
