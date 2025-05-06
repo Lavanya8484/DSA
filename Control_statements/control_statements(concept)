@@ -1,1 +1,31 @@
 
+Two types of Control Statements:
+i)Entry-control loops
+ii)exit-control loops
+
+*Entry control loops:
+->for loop and while loop 
+
+->for-loop Syntax:
+for(start;end;diff){
+//statements
+}
+for(intialization;condition;updation){
+//statements
+}
+
+->while loop syntax:
+start;
+while(end){
+diff;
+//statements;
+}
+
+->when we know the range we prefer to use for-loop
+->when we dont know the range we prefer to use while loop 
+
+//EXAMPLE:
+int arr[] = {1,2,3,4,5};
+for(int i = 0;i<n;i++){
+return arr[i]
+}
