@@ -1,1 +1,12 @@
+Nested Loops
+There are 3 types of solutions for any problem
+i)Brute-force
+ii)Better
+iii)optimal
 
+->Brute-Forece: Fore Brute-Forec most of the solutions can be written in two(2) loops
+
+Pattern printing:(Steps)
+i):- How many rows you want to print(outer-loop) 
+ii):- How many coloumns you need to print(inner-loop)
+iii):- What to print and what not to print 
