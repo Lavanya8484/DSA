@@ -1,1 +1,33 @@
+- cases have to be the same type as expressions, must be a constant or literals
+- duplicate case values are not allowed
+- break is use to terminate the sequence
+- if break is not used, it will continue to next case
+- default will execute when none of the above cases does
+- if default is not at the end, put break after it 
 
+
+//example:
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      int n = sc.nextInt();
+      switch(n){
+      case 1:
+        System.out.println("Monday");
+        break;
+      case 2:
+        System.out.println("Tuesday");
+        break;
+      case 4:
+        System.out.println("Thursday");
+        break;
+      case 7:
+        System.out.println("Sunday");
+        break;
+      default:
+      System.out.println("nothing");
+        
+      }  
+  }
+}
