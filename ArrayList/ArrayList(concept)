@@ -9,3 +9,13 @@ Syntax:-
 list<Wrapper class> ArrayListName = new ArrayList<>();
 ex:-
 ArrayList <Integer> leaders = new ArraList<>();
+
+->List is an interface and interface contains incomplete methods
+-> Wrapper class is not an primitive data-type it's a class and in collections we have to use wrapper classes only 
+-<> angular brackets called Generics(<>)
+->ArrayList is a class and which contains complete methods
+
+-> ArrayList is an dynamic Array, if my array size is 2 if im trying to add third element the size will be doubled and it'll copy
+previous elements vice-versa the array will become half(when you remove elements) 
+
+-> As arrayList is a class  you have to import the ArraList class so we can access all the predefined methods of ArrayList 
