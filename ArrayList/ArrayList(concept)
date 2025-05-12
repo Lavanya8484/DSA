@@ -1,1 +1,11 @@
 
+ArrayList:-
+-> Array is having fixed size once it is declared we cant change
+-> to increase the array size dynamically we have to use arrayList it belongs to collection framework
+FrameWork:-
+FrameWork is nothing but predefined methods and it will guide the program 
+
+Syntax:-
+list<Wrapper class> ArrayListName = new ArrayList<>();
+ex:-
+ArrayList <Integer> leaders = new ArraList<>();
