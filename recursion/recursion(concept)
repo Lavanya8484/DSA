@@ -1,0 +1,9 @@
+Recursion:-
+A function call itself  till it meets Base-condition
+-> There are two types in recursion 
+i) Funtiion calling same function itself untill it hits base condition
+ii) Function calling another function itsel untill it hits base condition
+->recursions are used to  break the code->For every recursive call elements will be pushed onto a stack after reaching the base condition
+the elements will be poped 
+-> for our question{write a program to find factorial using recursion} 5,4,3,2,1 all the values pushed onto a stack
+->Pseude-code:
