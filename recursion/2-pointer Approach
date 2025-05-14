@@ -1,0 +1,9 @@
+Step-1 :- Initialize the pointers according to the question
+strp-2 :- if you are starting 1st pointer at 0th index and 2nd pointer at last index whenever both pointers 
+crosses eachother break the loop in between(before breaking -loop) do the relevant operation 
+
+ex:- Reversing an Array
+i) Start i from 0th index and start j from last index
+ii) swap arr[i] and arr[j]
+iii) increment i and decrement j
+iv) when i crosses j (i.e i>j) break(stop moving)
