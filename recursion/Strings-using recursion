@@ -1,0 +1,11 @@
+Assume that we are starting with two strings input and output string , initially the output is empty, we have few
+steps they are:
+i) take first character from the string and store it in a character_variable
+ii) check the variable with our target character
+iii) if it matches just return otput string else append character to output
+iv) next, slice the string by onr character to make sure that the remaining string should start with index-1
+v) for slicing the string we have substring() method
+vi) for accesing the string index we have string_name.charAt(0)
+
+-> Whenever input string becomes empty we have to stop the recurssion that is the Base-case
+
