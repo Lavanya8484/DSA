@@ -1,0 +1,2 @@
+-> For a give array we have to print possible arrays it should be in a sequence but not continuous is called subset.
+-> in an array if we have n number of elements we get 2^n subsets
