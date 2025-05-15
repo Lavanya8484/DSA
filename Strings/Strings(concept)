@@ -1,0 +1,23 @@
+-> Strings are classes and Arrays are objects 
+->The sequence of characters that ends with null character is called Strings
+->Strings are immutable so they are fixed, we can't modify the string
+->All the array Objects will be created in Heap memory but Strings are created inside Heap Memory in StringPool
+
+ex:
+public class Main {
+    public static void main(String[] args) {
+      String a = "Hello";
+      String b = "Hello";
+      String c =  new String("Hello");
+      String d = new String("Hello");
+      System.out.println(a == b); //true 
+      System.out.println(c == d); //false
+  }
+}
+-> while comparing Strings a and b we will get true because both the strings are created at same memory location 
+-> while comparing Stringd c and d they are actually objects which are created at two different memory locations so we get false 
+
+->From the above example:-
+System.out.println(a.equals(b)); //true
+System.out.println(c.equals(d)); //true
+str1.equals(str2) is used to compare data where as == used to compare mem-locations
