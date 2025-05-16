@@ -1,0 +1,15 @@
+                                                                     Collection Framework
+                                                            ___________________|_____________________
+                                                            |                  |                    |
+                                                            List               Set                 Map
+                                                             |                  |                   |
+                                                           i)ArrayList       i)HashSet            i)HashMap
+                                                           ii)LinkedList     ii)LinkedHashSet     ii)LinkedHashMap
+                                                           iii)Vector        iii)TreeSet          iii) TreeMap
+
+
+List,Set,Map -> these are Interfaces and rest of all are classes 
+-> Interface contains incomplete methods and class contains complete methods
+-> List is ordered which can allow duplicates
+-> Set is unordered which wont accept duplicates 
+-> Map contains key-value pairs
