@@ -6,3 +6,34 @@ iv) if arr[m]==1 just stay there itself just increase m
 v) else arr[m] == 2 swap m with h and decrement h
 
 code:
+
+ import java.util.Arrays;
+class Main {
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 0, 0, 0, 1};
+        System.out.println(Arrays.toString(sorting(arr)));
+    }
+    public static int[] sorting(int[] arr) {
+        int l = 0;             
+        int m = 0;             
+        int h = arr.length - 1; 
+        while (m <= h) {
+            if (arr[m] == 0) {
+                int temp = arr[m];
+                arr[m] = arr[l];
+                arr[l] = temp;
+                m++;
+                l++;
+            } else if (arr[m] == 1) {
+                m++;
+            } else if (arr[m] == 2) {
+                int temp = arr[m];
+                arr[m] = arr[h];
+                arr[h] = temp;
+                h--;
+            }
+        }
+        return arr;
+    }
+}
+
