@@ -1,0 +1,8 @@
+Dutch National Flag:-
+i) Intitialize three pointers l-at 0th index,  m-at 0th index,  h-at n-1 index
+ii) The elements between m and h are unsorted so, we have to traverse between m and h
+iii) if arr[m] == 0 then move right-> means swap between arr[m] and arr[l] increase-l and m
+iv) if arr[m]==1 just stay there itself just increase m 
+v) else arr[m] == 2 swap m with h and decrement h
+
+code:
