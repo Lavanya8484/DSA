@@ -1,0 +1,30 @@
+Data Structures :-
+i)LinkedList
+ii)Stack And Queue
+iii)Trees and Graphs
+iv) Heaps
+
+Algorithms :-
+i) Searching
+ii) Sorting
+iii) Greedy Algorithm
+iv) Dynamic programming
+
+
+Time complexity constraints:
+i)Ignore Smaller values
+ii)Focus on worst Case
+iii)Ignore Constants
+
+
+To solve a problem we have 3 steps
+Step-1: Write some piece of lines and it contains 2-for loops to get Step-2 and in Step-2 you will run 1 more for-loop to get step-3 in step-3 
+i will write the code in constant time and if we analyze the code the Time-Complexity will be n^2 for step-1 and n for step-2 and 1/constant for step-3
+to get the time complexity for the code we have to ignore constants smaller values and the final time-complexity will be n^2
+i)Best-case: Getting efficient output
+ii)Average-case: Average of best and worst
+iii)worst-case: Getting the output in Maximum time denoted by O()....
+
+
+Space-Complexity:
+If we use any extra space for solving the problem that extra space is called space-complexity
