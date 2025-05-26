@@ -28,3 +28,11 @@ iii)worst-case: Getting the output in Maximum time denoted by O()....
 
 Space-Complexity:
 If we use any extra space for solving the problem that extra space is called space-complexity
+
+
+Linear and Non-Linear:
+Linear                       Non-linear
+i) LinkedList                i)Trees
+ii) Stack                    ii)Graphs
+iii) Queues                  iii)Heaps
+
