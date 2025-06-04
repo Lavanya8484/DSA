@@ -30,3 +30,14 @@ Types of trees:
              -PreOrder - root,left,right
              -InOrder - left,root,right
              -PostOrder - left,right,root
+
+*Complete Binary Tree :
+-Every level should be filled and the nodes should be start from left to right
+  
+*Full Binary Tree :
+-Every Level Should be filled and every node should contain either 2 children or 0 children
+  
+*Perfect Binary Tree :
+-Every node should contains 2 child nodes
+-Every level should be filled
+
