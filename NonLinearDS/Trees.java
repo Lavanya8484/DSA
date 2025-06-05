@@ -41,3 +41,7 @@ Types of trees:
 -Every node should contains 2 child nodes
 -Every level should be filled
 
+*Segment Tree:
+The Segment Tree is used for the range Queries and the time complexity is (logn)^2 which is better than (n)^2
+
+
